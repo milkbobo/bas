@@ -178,6 +178,7 @@ textarea {
     text-shadow: none !important;
     background: transparent !important;
     box-shadow: none !important;
+
   }
   a,
   a:visited {
@@ -829,6 +830,7 @@ ol ul {
 
 li {
   line-height: 20px;
+  list-style: none;   
 }
 
 ul.unstyled,
@@ -3952,7 +3954,6 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav {
-  margin-bottom: 20px;
   margin-left: 0;
   list-style: none;
 }
@@ -4033,7 +4034,6 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs,
 .nav-pills {
   *zoom: 1;
-
 }
 
 .nav-tabs:before,
@@ -4065,6 +4065,7 @@ input[type="submit"].btn.btn-mini {
 
 .nav-tabs {
   border-bottom: 1px solid #ddd;
+
 }
 
 .nav-tabs > li {
